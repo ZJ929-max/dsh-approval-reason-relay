@@ -1,0 +1,4 @@
+# dsh-approval-reason-relay —— 拒绝审批时把「为什么问我」带回给智能体
+- insert:
+    - id: approval-reason-relay
+      name: dsh-approval-reason-relay

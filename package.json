@@ -1,0 +1,36 @@
+{
+  "name": "dsh-approval-reason-relay",
+  "version": "0.1.0",
+  "description": "用户拒绝一次审批时，把审批方给出的理由（例如自动审查的拒绝理由）带回工具结果，智能体因此知道为什么被拒。",
+  "license": "MIT",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale",
+    "docs",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZJ929-max/dsh-approval-reason-relay.git"
+  },
+  "homepage": "https://github.com/ZJ929-max/dsh-approval-reason-relay#readme",
+  "engines": {
+    "node": ">=22"
+  }
+}

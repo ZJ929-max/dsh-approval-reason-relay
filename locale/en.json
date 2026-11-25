@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Approval reason on rejection",
+    "description": "When you reject an approval request, the reason the asker gave — such as the auto-review denial reason — is added to the tool result, so the agent can see why it was refused.",
+    "detail": "docs/DETAIL.md"
+  }
+}
